@@ -1,6 +1,6 @@
 # BridgeVee
 
-Programma gratuito per Windows che mostra i modelli di impianti e macchine di **EasyVeep** (e alcune scene aggiuntive create apposta) e li collega a un PLC: tramite la scheda **EasyPort** (USB) oppure il simulatore **CADe_SIMU**.
+E' un programma gratuito per Windows che rende disponibili una serie di scene interattive relative a impianti di automazione di vario genere e difficoltà. Queste scene possono essere comandate e fatte funzionare in 2 modi: direttamente tramite simulatore **CADe_SIMU** (con il programma scritto in logica cablata, ladder o grafcet), oppure tramite un PLC reale collegato al computer tramite dispositivo di interfaccia **Festo EasyPort** (USB). Il programma è in grado anche di caricare ed eseguire le scene del software **Festo EasyVeep** se questo risulta installato ne PC.
 Serve a provare, in classe o a casa, i programmi PLC su impianti virtuali: gli ingressi (sensori) e le uscite (attuatori) si vedono a destra, la scena si muove di conseguenza.
 
 ## Scarica
