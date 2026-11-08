@@ -1,0 +1,35 @@
+BridgeVee
+Copyright (c) 2026 Prof. G. Angelucci. Tutti i diritti riservati.
+Copyright (c) 2026 Prof. G. Angelucci. All rights reserved.
+
+LICENZA D'USO
+
+1. Uso gratuito. E' consentito installare e usare BridgeVee gratuitamente, per qualsiasi scopo
+   (didattico, personale, professionale), su un numero qualsiasi di computer.
+
+2. Condivisione. E' consentito condividere gratuitamente il programma di installazione ufficiale, senza
+   modifiche, insieme a questo file di licenza.
+
+3. Cosa non e' consentito, senza autorizzazione scritta dell'autore: modificare il programma o le sue
+   scene; scomporlo o estrarne parti per altri usi; distribuire versioni modificate; vendere il programma
+   o distribuirlo a pagamento; presentarlo come opera propria. Restano validi i diritti che la legge
+   riconosce in modo inderogabile.
+
+4. Componenti di terzi. BridgeVee include componenti di terzi (elencati in THIRD_PARTY.md) soggetti alle
+   loro licenze, che non sono modificate da questa.
+
+5. Nessuna garanzia. Il programma e' fornito "cosi' com'e'", senza garanzie di alcun tipo, esplicite o
+   implicite. L'autore non e' responsabile di danni derivanti dall'uso del programma, compreso l'uso con
+   impianti, schede o PLC reali.
+
+6. Marchi. EasyVeep, EasyPort, Festo e CADe_SIMU appartengono ai rispettivi proprietari; BridgeVee non e'
+   affiliato a essi e non include i modelli Festo.
+
+-----------------------------------------------------------------------------
+SUMMARY (English)
+
+BridgeVee is free to install and use, for any purpose and on any number of computers. You may share the
+unmodified official installer free of charge together with this file. You may not modify, decompile,
+repackage, sell or distribute modified versions without the author's written permission (except where
+the law gives you non-waivable rights). Third-party components are covered by their own licenses
+(see THIRD_PARTY.md). The software is provided "as is", without warranty of any kind.
