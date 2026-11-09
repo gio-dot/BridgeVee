@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="assets/demo.gif" width="100%" alt="BridgeVee: demo">
 </p>
@@ -8,22 +7,25 @@
 E' un software gratuito per Windows che rende disponibili una serie di scene interattive relative a impianti di automazione di vario genere e difficoltà. Queste scene possono essere comandate e fatte funzionare in 2 modi: direttamente tramite simulatore **CADe_SIMU** (con il programma scritto in logica cablata, ladder o grafcet), oppure tramite un PLC reale collegato al computer tramite dispositivo di interfaccia **Festo EasyPort** (USB). BridgeVee è in grado anche di caricare ed eseguire le scene del software **Festo EasyVeep** se questo risulta installato ne PC.
 Serve a provare, in classe o a casa, i programmi PLC su impianti virtuali: gli ingressi (sensori) e le uscite (attuatori) si vedono a destra, la scena si muove di conseguenza.
 
-## Scarica
+## Installazione
 
-Vai alla pagina delle **[Release](../../releases/latest)** e scarica `BridgeVee Setup ….exe`.
+1. Vai alla pagina delle [**Releases**](https://github.com/gio-dot/BridgeVee/releases), cerca la versione di `core-vx.x.x` più alta e in **Assets** scarica `BridgeVee-Setup-x.x.x.exe`. <u>Non è necessario scaricare il pacchetto scene in quanto incluso con il core.</u>
+
+2. Esegui il file scaricato e scegli se installare **solo per te** (password amministratore non necessaria) o **per tutti gli utenti** (password amministratore richiesta).
+
+3. Gli **aggiornamenti** successivi riguardanti il software o i pacchetti di scene, saranno proposti automaticamente all'apertura del programma; dall'avviso sarà possibile installarli con un clic.
+
+**NOTE:**
+
+Se sul proprio PC è installato **Festo EasyVeep (facoltativo)**, le scene di questo saranno importate automaticamente in BridgeVee; se non vengono trovate apri le Impostazioni (l'ingranaggio in alto a destra) e scegli la cartella `flash` (di solito `C:\Program Files (x86)\didactic\EasyVeep 2\flash`).
+
+**Avviso di Windows.** Il programma non ha una firma digitale a pagamento, quindi Windows (SmartScreen) può mostrare "Windows ha protetto il PC". Premi **Ulteriori informazioni** e poi **Esegui comunque**.
 
 ## Requisiti
 
 - Windows 10 o 11 (64 bit).
 - Per i modelli Festo: l'installazione di **EasyVeep 2** sullo stesso computer. BridgeVee non contiene i modelli Festo, legge quelli già presenti nella cartella `flash` di EasyVeep. Le scene "(nuovo)" sono incluse e non richiedono EasyVeep.
 - Per collegare un PLC reale: scheda **EasyPort** con cavo USB, oppure **CADe_SIMU**.
-
-## Installazione
-
-1. Esegui il file scaricato e scegli se installare **solo per te** o **per tutti gli utenti**.
-2. Al primo avvio, se BridgeVee non trova EasyVeep, apri le Impostazioni (l'ingranaggio in alto a destra) e scegli la cartella `flash` (di solito `C:\Program Files (x86)\didactic\EasyVeep 2\flash`).
-
-**Avviso di Windows.** Il programma non ha una firma digitale a pagamento, quindi Windows (SmartScreen) può mostrare "Windows ha protetto il PC". Premi **Ulteriori informazioni** e poi **Esegui comunque**.
 
 ## Come si usa
 
