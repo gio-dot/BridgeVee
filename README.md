@@ -7,6 +7,8 @@
 E' un software gratuito per Windows che rende disponibili una serie di scene interattive relative a impianti di automazione di vario genere e difficoltà. Queste scene possono essere comandate e fatte funzionare in 2 modi: direttamente tramite simulatore **CADe_SIMU** (con il programma scritto in logica cablata, ladder o grafcet), oppure tramite un PLC reale collegato al computer tramite dispositivo di interfaccia **[Festo EasyPort](https://www.festo.com/ch/it/p/easyport-usb-id_PROD_DID_548687?page=0)** (USB). BridgeVee è in grado anche di caricare ed eseguire le scene del software **Festo EasyVeep** se questo risulta installato ne PC.
 Serve a provare, in classe o a casa, i programmi PLC su impianti virtuali: gli ingressi (sensori) e le uscite (attuatori) si vedono a destra, la scena si muove di conseguenza.
 
+**NUOVE SCENE SARANNO AGGIUNTE REGOLARMENTE; SE VUOI RICHIEDERE UNA SCENA PERSONALIZZATA SCRIVI [QUI](https://github.com/gio-dot/BridgeVee/issues).**
+
 ## Installazione
 
 1. Vai alla pagina delle [**Releases**](https://github.com/gio-dot/BridgeVee/releases), cerca la versione di `core-vx.x.x` più alta e in **Assets** scarica `BridgeVee-Setup-x.x.x.exe`. <u>Non è necessario scaricare il pacchetto scene in quanto incluso con il core.</u>
@@ -31,8 +33,8 @@ Se sul proprio PC è installato **Festo EasyVeep (facoltativo)**, le scene di qu
 
 1. Scegli la scena dall'elenco in alto.
 2. A destra vedi gli **ingressi** (sensori, verso il PLC) e le **uscite** (attuatori, dal PLC).
-3. Senza PLC collegato la scena esegue da sola una dimostrazione (**AUTO**); con **MANUALE** puoi attivare le uscite a mano.
-4. Con un PLC: apri le Impostazioni, scegli la sorgente (EasyPort o CADe_SIMU) e premi il pulsante verde **Connetti**.
+3. Senza PLC (tramite EasyPort) o CadeSimu collegati la scena esegue da sola una demo (**AUTO**); con **MANUALE** puoi attivare le uscite a mano.
+4. Con un PLC (tramite EasyPort) o CadeSimu: apri le Impostazioni, scegli la sorgente (EasyPort o CADe_SIMU) e premi il pulsante verde **Connetti**.
 
 Il manuale completo sarà disponibile qui: _(link in arrivo)_.
 
@@ -42,7 +44,7 @@ Altri file `.swf` si possono copiare nella cartella `%APPDATA%\BridgeVee\MyScene
 
 ## Numeri di versione
 
-Il titolo della finestra mostra due numeri: **Release** (per esempio `2026.11.1`, cresce a ogni aggiornamento di scene o programma) e **Core** (il numero del programma di base).
+Il titolo della finestra mostra due numeri: **Scene** (per esempio `2026.11.1`, cresce a ogni aggiornamento del pacchetto scene) e **Core** (il numero del programma di base).
 
 ## Licenza
 
