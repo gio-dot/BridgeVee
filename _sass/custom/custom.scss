@@ -1,0 +1,8 @@
+// Titoli in grassetto e qualche contrasto in piu'.
+h1, h2, h3, h4, h5, h6,
+.text-delta, .text-gamma, .text-beta, .text-alpha {
+  font-weight: 700 !important;
+}
+.site-title { font-weight: 800; }
+.side-bar .nav-list .nav-list-link.active { font-weight: 700; color: #1b7a4f; }
+th { font-weight: 700; background: #e7f1ec; }
