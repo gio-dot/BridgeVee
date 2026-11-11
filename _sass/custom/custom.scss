@@ -6,3 +6,20 @@ h1, h2, h3, h4, h5, h6,
 .site-title { font-weight: 800; }
 .side-bar .nav-list .nav-list-link.active { font-weight: 700; color: #1b7a4f; }
 th { font-weight: 700; background: #e7f1ec; }
+
+// Barra laterale: larghezza fissa e stretta anche sugli schermi grandi (il tema la allarga).
+@media (min-width: 66.5rem) {
+  .side-bar { width: 15.5rem; min-width: 15.5rem; }
+  .side-bar + .main { margin-left: 15.5rem; max-width: 56rem; }
+  .site-nav, .site-header, .site-footer { width: 15.5rem; }
+}
+
+// Icona accanto al titolo nella barra laterale (percorso relativo al foglio di stile: /assets/css/).
+.site-title::before {
+  content: "";
+  flex: none;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.6rem;
+  background: url("../icon/logo-64.png") center / contain no-repeat;
+}
