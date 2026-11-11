@@ -26,7 +26,7 @@ Se sul proprio PC è installato **Festo EasyVeep (facoltativo)**, le scene di qu
 ## Requisiti
 
 - Windows 10 o 11 (64 bit).
-- Per i modelli Festo: l'installazione di **EasyVeep 2** sullo stesso computer. BridgeVee non contiene i modelli Festo, legge quelli già presenti nella cartella `flash` di EasyVeep. Le scene "(nuovo)" sono incluse e non richiedono EasyVeep.
+- Per i modelli Festo: l'installazione di **EasyVeep 2** sullo stesso computer. BridgeVee non contiene i modelli Festo, legge quelli già presenti nella cartella `flash` di EasyVeep. Le scene di BridgeVee (in testa all'elenco) sono incluse e non richiedono EasyVeep.
 - Per collegare un PLC reale: scheda **EasyPort** con cavo USB, oppure **CADe_SIMU**.
 
 ## Come si usa

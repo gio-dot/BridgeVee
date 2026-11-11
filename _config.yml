@@ -1,0 +1,19 @@
+title: BridgeVee
+description: Simulazioni per PLC con EasyPort Festo e CADe_SIMU
+lang: it
+baseurl: "/BridgeVee"
+url: "https://gio-dot.github.io"
+
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+aux_links:
+  "Scarica (Releases)":
+    - "https://github.com/gio-dot/BridgeVee/releases"
+aux_links_new_tab: true
+footer_content: "BridgeVee - licenza nel repository."
+callouts:
+  note:
+    title: Nota
+    color: blue
