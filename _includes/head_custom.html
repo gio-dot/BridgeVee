@@ -1,2 +1,17 @@
 <link rel="icon" type="image/x-icon" href="{{ '/assets/icon/favicon.ico' | relative_url }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/icon/logo-32.png' | relative_url }}">
+<script>
+// Segna nel menu laterale la pagina aperta (bv-current) e la sua sezione di primo livello (bv-section).
+document.addEventListener('DOMContentLoaded', function () {
+  var norm = function (p) { return p.replace(/index\.html$/, ''); };
+  var here = norm(location.pathname);
+  document.querySelectorAll('.site-nav a.nav-list-link').forEach(function (a) {
+    if (norm(new URL(a.href, location.href).pathname) !== here) return;
+    a.classList.add('bv-current');
+    var top = a.closest('.nav-list-item'), up;
+    while (top && (up = top.parentElement && top.parentElement.closest('.nav-list-item'))) top = up;
+    var tl = top && top.querySelector(':scope > a.nav-list-link');
+    if (tl) tl.classList.add('bv-section');
+  });
+});
+</script>

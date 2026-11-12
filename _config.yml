@@ -12,7 +12,7 @@ aux_links:
   "Scarica (Releases)":
     - "https://github.com/gio-dot/BridgeVee/releases"
 aux_links_new_tab: true
-footer_content: "BridgeVee - licenza nel repository."
+footer_content: "Created and maintained by <a href='https://github.com/gio-dot'>gio-dot</a> (prof. G. Angelucci)"
 callouts:
   note:
     title: Nota

@@ -28,3 +28,11 @@ th { font-weight: 700; background: #e7f1ec; }
 // Menu sempre espanso: niente chiusura delle sezioni (Guida e Scene mostrano sempre le loro pagine).
 .site-nav .nav-list .nav-list-item > ul.nav-list { display: block !important; }
 .site-nav .nav-list-expander { display: none !important; }
+
+// Menu: voci di sezione sempre in grassetto; la sezione in cui ci si trova ha una freccina e il verde;
+// sottopagine in testo normale, in grassetto verde solo quella aperta (le classi le mette lo script in _includes/head_custom.html).
+.site-nav > ul.nav-list > li.nav-list-item > a.nav-list-link { font-weight: 700; }
+.site-nav > ul.nav-list > li.nav-list-item > a.nav-list-link.bv-section { color: #1b7a4f; }
+.site-nav > ul.nav-list > li.nav-list-item > a.nav-list-link.bv-section::before { content: "\25B8\00A0"; }
+.site-nav ul.nav-list ul.nav-list a.nav-list-link { font-weight: 400; }
+.site-nav ul.nav-list ul.nav-list a.nav-list-link.bv-current { font-weight: 700; color: #1b7a4f; }
