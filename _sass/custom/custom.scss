@@ -24,3 +24,7 @@ th { font-weight: 700; background: #e7f1ec; }
   margin-right: 0.6rem;
   background: url("../icon/logo-64.png") center / contain no-repeat;
 }
+
+// Menu sempre espanso: niente chiusura delle sezioni (Guida e Scene mostrano sempre le loro pagine).
+.site-nav .nav-list .nav-list-item > ul.nav-list { display: block !important; }
+.site-nav .nav-list-expander { display: none !important; }

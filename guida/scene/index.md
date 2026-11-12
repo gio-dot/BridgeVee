@@ -1,6 +1,5 @@
 ---
 title: Scene
-parent: Guida
 nav_order: 3
 has_children: true
 permalink: /guida/scene/
