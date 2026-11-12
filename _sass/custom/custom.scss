@@ -10,7 +10,8 @@ th { font-weight: 700; background: #e7f1ec; }
 // Barra laterale: larghezza fissa e stretta anche sugli schermi grandi (il tema la allarga).
 @media (min-width: 66.5rem) {
   .side-bar { width: 15.5rem; min-width: 15.5rem; }
-  .side-bar + .main { margin-left: 15.5rem; max-width: 56rem; }
+  // contenuto centrato nello schermo (non nello spazio accanto alla barra); mai sotto la barra
+  .side-bar + .main { margin-left: max(15.5rem, calc((100% - 52rem) / 2)); max-width: 52rem; }
   .site-nav, .site-header, .site-footer { width: 15.5rem; }
 }
 
