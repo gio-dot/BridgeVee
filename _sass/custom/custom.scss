@@ -9,10 +9,10 @@ th { font-weight: 700; background: #e7f1ec; }
 
 // Barra laterale: larghezza fissa e stretta anche sugli schermi grandi (il tema la allarga).
 @media (min-width: 66.5rem) {
-  .side-bar { width: 15.5rem; min-width: 15.5rem; }
+  .side-bar { width: 17.8rem; min-width: 17.8rem; }
   // contenuto centrato nello schermo (non nello spazio accanto alla barra); mai sotto la barra
-  .side-bar + .main { margin-left: max(15.5rem, calc((100% - 52rem) / 2)); max-width: 52rem; }
-  .site-nav, .site-header, .site-footer { width: 15.5rem; }
+  .side-bar + .main { margin-left: max(17.8rem, calc((100% - 52rem) / 2)); max-width: 52rem; }
+  .site-nav, .site-header, .site-footer { width: 17.8rem; }
 }
 
 // Icona accanto al titolo nella barra laterale (percorso relativo al foglio di stile: /assets/css/).
@@ -36,3 +36,10 @@ th { font-weight: 700; background: #e7f1ec; }
 .site-nav > ul.nav-list > li.nav-list-item > a.nav-list-link.bv-section::before { content: "\25B8\00A0"; }
 .site-nav ul.nav-list ul.nav-list a.nav-list-link { font-weight: 400; }
 .site-nav ul.nav-list ul.nav-list a.nav-list-link.bv-current { font-weight: 700; color: #1b7a4f; }
+
+// Anche tra 50 e 66,5 rem di larghezza la barra e' larga 17,8 rem (il tema usa 15,5).
+@media (min-width: 50rem) and (max-width: 66.49rem) {
+  .side-bar { width: 17.8rem; }
+  .side-bar + .main { margin-left: 17.8rem; }
+  .site-nav, .site-header, .site-footer { width: 17.8rem; }
+}
