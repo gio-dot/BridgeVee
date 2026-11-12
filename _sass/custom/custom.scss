@@ -35,7 +35,7 @@ th { font-weight: 700; background: #e7f1ec; }
 .site-nav > ul.nav-list > li.nav-list-item > a.nav-list-link.bv-section { color: #1b7a4f; }
 .site-nav > ul.nav-list > li.nav-list-item > a.nav-list-link.bv-section::before { content: "\25B8\00A0"; }
 .site-nav ul.nav-list ul.nav-list a.nav-list-link { font-weight: 400; }
-.site-nav ul.nav-list ul.nav-list a.nav-list-link.bv-current { font-weight: 700; color: #1b7a4f; }
+.site-nav ul.nav-list ul.nav-list a.nav-list-link.bv-current { font-weight: 700; color: #24292e; }
 
 // Anche tra 50 e 66,5 rem di larghezza la barra e' larga 17,8 rem (il tema usa 15,5).
 @media (min-width: 50rem) and (max-width: 66.49rem) {
