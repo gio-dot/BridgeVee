@@ -8,7 +8,7 @@ nav_order: 3
 
 Per collegare **CADeSIMU** con le scene di **BridgeVee** facciamo uso delle tabelle di I/O presenti in esso; con queste associamo tutti gli ingressi e uscite presenti in una certa scena  , con contatti, bobine, transizioni o uscite (se usiamo il Grafcet) che andremo a usare nel disegno CADeSIMU.
 
-![Uso con CADeSIMU]({{ site.baseurl }}/assets/uso-cadesimu.png)
+![Uso con CADeSIMU]({{ site.baseurl }}/assets/cadesimu.png)
 
 - Scegliamo la scena che vogliamo automatizzare in BridgeVee; nel pannello di sinistra vediamo tutti gli ingressi e uscite presenti nella scena.
 
