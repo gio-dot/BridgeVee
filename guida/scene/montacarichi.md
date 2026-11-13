@@ -1,10 +1,12 @@
 ---
-title: Montacarichi
+title: 14 · Montacarichi
 parent: Scene
-nav_order: 11
+nav_order: 14
 ---
 
-# Montacarichi
+# 14 · Montacarichi
+
+File: `14-montacarichi.swf`
 
 Montacarichi esterno a una casa di 3 livelli (piano terra, 1P, 2P). Il cestello scorre su due colonne; a ogni piano c'è un
 balcone con un cancelletto a sblocco elettrico. Pulsantiera fissa a ogni piano e pulsantiera del cestello.

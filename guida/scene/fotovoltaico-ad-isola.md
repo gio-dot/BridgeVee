@@ -1,10 +1,12 @@
 ---
-title: Fotovoltaico ad isola
+title: 10 · Fotovoltaico ad isola
 parent: Scene
-nav_order: 5
+nav_order: 10
 ---
 
-# Fotovoltaico ad isola
+# 10 · Fotovoltaico ad isola
+
+File: `10-fotovoltaico-isola.swf`
 
 Casa vista di fronte (solo di giorno) con il tetto a pannelli e, sulla parete, il quadro dell'inverter aperto (blocco CB, blocco INV e i tre interruttori che si aprono e si chiudono) con la batteria accanto. Il pannello in basso ha l'interruttore magnetotermico generale della rete, un cursore per la carica della batteria (0–100 %) e uno per i consumi della casa (0–4 kW), ciascuno con la spunta «Casuale» per farli variare da soli, e le spie degli 8 segnali verso il PLC.
 

@@ -1,10 +1,12 @@
 ---
-title: Centro di lavorazione
+title: 1 · Centro di lavorazione
 parent: Scene
-nav_order: 4
+nav_order: 1
 ---
 
-# Centro di lavorazione
+# 1 · Centro di lavorazione
+
+File: `01-centro-lavorazione.swf`
 
 Un erogatore lascia cadere un pezzo sul carrello, che lo porta a due stazioni (ganascia + fresa); a fine corsa un comando di scarico lo espelle nella cassetta. Il pannello in basso ha **Start** (NA), **Stop** (NC), **Emergenza** (NC, bistabile) e il **selettore Auto**, più tre spie (arresto, lavorazione, emergenza) comandate dalle uscite Q1.0–Q1.2; il blocco **Reset scena / Velocità** è comune a tutte le scene.
 

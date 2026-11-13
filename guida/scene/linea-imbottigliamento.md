@@ -1,10 +1,12 @@
 ---
-title: Linea imbottigliamento
+title: 6 · Linea imbottigliamento
 parent: Scene
-nav_order: 8
+nav_order: 6
 ---
 
-# Linea imbottigliamento
+# 6 · Linea imbottigliamento
+
+File: `06-imbottigliamento.swf`
 
 Linea di imbottigliamento del vino in vista frontale (ispirata al modello Festo «Bottling wine», con grafica, nomi e un sensore in più propri). Un nastro porta le bottiglie (vino rosso = bottiglia scura, vino bianco = bottiglia chiara) davanti a 4 stazioni: riempimento, tappatura, etichetta sul collo, etichetta sul corpo. Le bottiglie entrano da sole a sinistra con colore casuale (il colore cambia al massimo ogni 2 bottiglie) ed escono a destra, dove un sensore segnala la fine della lavorazione. Il pannello in basso ha **Start** (NA), **Stop** (NC), **Emergenza** (NC, bistabile) e il **selettore Auto**, più tre spie (arresto, lavorazione, emergenza) comandate dalle uscite Q1.0–Q1.2; il blocco **Reset scena / Velocità** è comune a tutte le scene.
 

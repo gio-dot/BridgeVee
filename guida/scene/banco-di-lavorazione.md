@@ -1,10 +1,12 @@
 ---
-title: Banco di lavorazione
+title: 7 · Banco di lavorazione
 parent: Scene
-nav_order: 1
+nav_order: 7
 ---
 
-# Banco di lavorazione
+# 7 · Banco di lavorazione
+
+File: `07-banco-lavorazione.swf`
 
 Banco di foratura in vista isometrica, con tre pistoni (destro, sinistro, centrale) e un mandrino. Tutti gli attuatori sono a semplice effetto: uscita a 1 = avanti (o giù), a 0 = indietro (o su). Il pannello in basso ha **Start** (NA), **Stop** (NC), **Emergenza** (NC, bistabile) e il **selettore Auto**, più tre spie (arresto, lavorazione, emergenza) comandate dalle uscite Q1.0–Q1.2; il blocco **Reset scena / Velocità** è comune a tutte le scene.
 

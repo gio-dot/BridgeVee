@@ -1,10 +1,12 @@
 ---
-title: Smistamento pacchi 2
+title: 13 · Smistamento pacchi 2
 parent: Scene
-nav_order: 14
+nav_order: 13
 ---
 
-# Smistamento pacchi 2
+# 13 · Smistamento pacchi 2
+
+File: `13-smistamento-pacchi-2.swf`
 
 Come «Smistamento pacchi» (stessi oggetti: due nastri, braccio pick & place, generatore di pacchi), ma qui lo smistamento fra pacchi alti e bassi lo fa il nastro lontano. A metà strada fra il generatore e il punto di presa c'è una fotocellula **alta** (vede solo i pacchi alti); al punto di presa una **sbarra mobile** (tipo passaggio a livello, uscita «APRI SBARRA») e una fotocellula bassa. In fondo al nastro lontano c'è uno scivolo. I pacchi escono a «mazzo»: ogni due, uno alto e uno basso, in ordine casuale. Il pannello in basso ha **Start** (NA), **Stop** (NC), **Emergenza** (NC, bistabile) e il **selettore Auto**, più tre spie (arresto, lavorazione, emergenza) comandate dalle uscite Q1.0–Q1.2; il blocco **Reset scena / Velocità** è comune a tutte le scene.
 

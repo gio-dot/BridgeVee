@@ -1,10 +1,12 @@
 ---
-title: Miscelatore
+title: 11 · Miscelatore
 parent: Scene
-nav_order: 10
+nav_order: 11
 ---
 
-# Miscelatore
+# 11 · Miscelatore
+
+File: `11-miscelatore.swf`
 
 Grande recipiente cilindrico trasparente (vista isometrica) con due tubi dall'alto che portano i liquidi A e B alle elettrovalvole EV1 ed EV2, resistenza riscaldante e miscelatore a pale sul fondo, scarico con elettrovalvola EV3. Tre sensori di livello (basso, metà, 3/4), un sensore di temperatura (T < 40, T < 60, T > 65 °C) e due sensori (aperta / chiusa) per ciascuna valvola. Il pannello in basso ha **Start** (NA), **Stop** (NC), **Emergenza** (NC, bistabile) e il **selettore Auto**, più tre spie (arresto, lavorazione, emergenza) comandate dalle uscite Q1.0–Q1.2; il blocco **Reset scena / Velocità** è comune a tutte le scene. Nel pannello c'è anche un cursore che forza la temperatura del liquido, per provare le soglie.
 

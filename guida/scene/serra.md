@@ -1,10 +1,12 @@
 ---
-title: Serra
+title: 9 · Serra
 parent: Scene
-nav_order: 12
+nav_order: 9
 ---
 
-# Serra
+# 9 · Serra
+
+File: `09-serra.swf`
 
 Casetta a pareti trasparenti con tetto a serrande (lamelle orientabili), vista isometrica, con piantine dentro e giorno/notte animato. Il quadro in basso ha un orologio (solo lancetta delle ore: si trascina con il mouse, oppure gira da solo con la spunta «Orologio auto»), un cursore della temperatura ambiente (a mano, oppure con andamento casuale) e le spie delle tre fasce orarie e delle quattro soglie di temperatura.
 

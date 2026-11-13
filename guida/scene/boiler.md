@@ -1,10 +1,12 @@
 ---
-title: Boiler
+title: 4 · Boiler
 parent: Scene
-nav_order: 2
+nav_order: 4
 ---
 
-# Boiler
+# 4 · Boiler
+
+File: `04-boiler.swf`
 
 Serbatoio di acqua calda con un'elettrovalvola di ingresso, due sensori di livello fissi, una resistenza riscaldante, due termostati di regolazione a soglia (TMIN e TMAX), un termostato di sicurezza e un termometro analogico e digitale. L'acqua esce con prelievi casuali, regolabili dal pannello. Il pannello ha Start, Stop (NC), Emergenza (NC bistabile), le soglie MAX e MIN (pulsanti − e +, da 0 a 80 °C, TMAX mai sotto TMIN), la frequenza dei prelievi, tre spie e Reset scena.
 

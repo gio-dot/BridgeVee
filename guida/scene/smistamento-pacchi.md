@@ -1,10 +1,12 @@
 ---
-title: Smistamento pacchi
+title: 12 · Smistamento pacchi
 parent: Scene
-nav_order: 13
+nav_order: 12
 ---
 
-# Smistamento pacchi
+# 12 · Smistamento pacchi
+
+File: `12-smistamento-pacchi.swf`
 
 Due nastri trasportatori e un braccio pick & place a portale, in vista isometrica. Con l'uscita «Eroga pacco» (a fronte di salita) esce un pacco basso o alto dal generatore (riquadro tratteggiato) e il nastro lontano (KM0) lo porta sotto al braccio, dove una fotocellula lo ferma. I pacchi escono a «mazzo»: ogni due, uno alto e uno basso, in ordine casuale. Il braccio scende (Y-Z), la ventosa (Y-VEN) prende il pacco, il braccio risale, avanza in X (Y-X) sul nastro vicino, scende e lascia il pacco; poi risale e torna a riposo. Il nastro vicino porta i pacchi alti a sinistra (KM2) e quelli bassi a destra (KM1) fino agli scivoli. Il pannello in basso ha **Start** (NA), **Stop** (NC), **Emergenza** (NC, bistabile) e il **selettore Auto**, più tre spie (arresto, lavorazione, emergenza) comandate dalle uscite Q1.0–Q1.2; il blocco **Reset scena / Velocità** è comune a tutte le scene.
 

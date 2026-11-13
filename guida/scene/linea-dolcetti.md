@@ -1,10 +1,12 @@
 ---
-title: Linea dolcetti
+title: 8 · Linea dolcetti
 parent: Scene
-nav_order: 7
+nav_order: 8
 ---
 
-# Linea dolcetti
+# 8 · Linea dolcetti
+
+File: `08-linea-dolcetti.swf`
 
 Vista frontale: un pistone verticale che solleva i dolcetti, un erogatore di guarnizione (panna, cioccolato e frutti rossi) e un pistone orizzontale che li spinge su uno scivolo. Gli attuatori sono a semplice effetto: uscita a 1 = su / avanti. Il pannello in basso ha **Start** (NA), **Stop** (NC), **Emergenza** (NC, bistabile) e il **selettore Auto**, più tre spie (arresto, lavorazione, emergenza) comandate dalle uscite Q1.0–Q1.2; il blocco **Reset scena / Velocità** è comune a tutte le scene.
 

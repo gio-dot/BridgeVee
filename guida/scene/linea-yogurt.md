@@ -1,10 +1,12 @@
 ---
-title: Linea yogurt
+title: 2 · Linea yogurt
 parent: Scene
-nav_order: 9
+nav_order: 2
 ---
 
-# Linea yogurt
+# 2 · Linea yogurt
+
+File: `02-linea-yogurt.swf`
 
 Un nastro porta un vasetto dal caricamento alla stazione 1 (riempimento con yogurt e cereali: due valvole e due sensori di livello), poi alla stazione 2 (posizionatore «Chiusura vasetto»); poi torna indietro e un comando di prelievo lo spinge nella cassetta a lato del nastro. Il pannello in basso ha **Start** (NA), **Stop** (NC), **Emergenza** (NC, bistabile) e il **selettore Auto**, più tre spie (arresto, lavorazione, emergenza) comandate dalle uscite Q1.0–Q1.2; il blocco **Reset scena / Velocità** è comune a tutte le scene.
 

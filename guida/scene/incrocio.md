@@ -1,10 +1,12 @@
 ---
-title: Incrocio
+title: 5 · Incrocio
 parent: Scene
-nav_order: 6
+nav_order: 5
 ---
 
-# Incrocio
+# 5 · Incrocio
+
+File: `05-incrocio.swf`
 
 Incrocio stradale in vista isometrica con due semafori a tre luci (asse A e asse B) e due attraversamenti pedonali sull'asse B, con pulsante di chiamata e semafori pedonali (rosso, verde, verde lampeggiante). Dodici auto arrivano a caso e si adeguano ai semafori: con il rosso si fermano alla linea e fanno coda; con il giallo passano solo se sono troppo vicine per fermarsi. Nella scena restano solo il cursore di velocità e Reset (non c'è il pannello comandi).
 

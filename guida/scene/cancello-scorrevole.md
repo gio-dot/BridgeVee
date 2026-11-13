@@ -1,10 +1,12 @@
 ---
-title: Cancello scorrevole
+title: 3 · Cancello scorrevole
 parent: Scene
 nav_order: 3
 ---
 
-# Cancello scorrevole
+# 3 · Cancello scorrevole
+
+File: `03-cancello-scorrevole.swf`
 
 Vista frontale: un'anta scorre davanti al muro e chiude il passo carraio tra due colonne. Comandi: telecomando a un tasto, chiave a ritorno automatico (apri / chiudi), due finecorsa (sul motore), una fotocellula e un lampeggiante giallo sulla colonna destra. Il motore ha due velocità per verso, quindi i comandi di movimento sono quattro.
 
